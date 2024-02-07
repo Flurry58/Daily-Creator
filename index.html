@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Art Daily</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="content">
+        <table id="header">
+            <tr>
+                <th class="above">Art Area:
+                    <input type="text" class="topin" placeholder="GH Studios">
+                </th>
+                <th id="sp">Specialist(s):
+                    <input type="text" class="topin" placeholder="Jessica & Logan">
+                </th class="above">
+                <th id="dholder">Date:
+                    <label id="curdate"></label>
+                </th>
+            </tr>
+        </table>
+        <table>
+            <th id="greyback" colspan="5">Art Staff Daily - Yay Arts!</th>
+
+            <tr>
+                <th class="t_p">Time/Period</th>
+                <th class="group">Group</th>
+                <th class="p_n">Project Name</th>
+                <th class="gsn">Group Specific Notes & Comments</th>
+            </tr>
+            <tr>
+                <th class="t_p">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+
+                <th class="group">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+                <th class="p_n">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+                <th class="gsn">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+            </tr>
+            <tr>
+                <th class="t_p">Time/Period</th>
+                <th class="group">Group</th>
+                <th class="p_n">Project Name</th>
+                <th class="gsn">Group Specific Notes & Comments</th>
+            </tr>
+            <tr>
+                <th class="t_p">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+
+                <th class="group">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+                <th class="p_n">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+                <th class="gsn">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+            </tr>
+            <tr>
+                <th class="t_p">Time/Period</th>
+                <th class="group">Group</th>
+                <th class="p_n">Project Name</th>
+                <th class="gsn">Group Specific Notes & Comments</th>
+            </tr>
+            <tr>
+                <th class="t_p">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+
+                <th class="group">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+                <th class="p_n">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+                <th class="gsn">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+            </tr>
+            <tr>
+                <th class="t_p">Time/Period</th>
+                <th class="group">Group</th>
+                <th class="p_n">Project Name</th>
+                <th class="gsn">Group Specific Notes & Comments</th>
+            </tr>
+            <tr>
+                <th class="t_p">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+
+                <th class="group">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+                <th class="p_n">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+                <th class="gsn">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+            </tr>
+            <tr>
+                <th class="t_p">Time/Period</th>
+                <th class="group">Group</th>
+                <th class="p_n">Project Name</th>
+                <th class="gsn">Group Specific Notes & Comments</th>
+            </tr>
+            <tr>
+                <th class="t_p">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+
+                <th class="group">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+                <th class="p_n">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+                <th class="gsn">
+                    <div id="multilineinput" contenteditable="true"></div>
+                    <input type="hidden" id="detailsfield" name="detailsfield">
+                </th>
+            </tr>
+            
+            <th  colspan="5"><span id="under">Faculty Notes, Supply Needs, Scheduling Concerns, or any General Feedback</span><div id="multilineinput" contenteditable="true"></div>
+                <input type="hidden" id="detailsfield" name="detailsfield"></th>
+            <tr></tr>
+            <th id="butholder" colspan="5"><input id="btnSubmit" type="submit" value="Submit" /></th>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

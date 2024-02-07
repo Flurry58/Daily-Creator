@@ -1,0 +1,64 @@
+
+table, th, td {
+    border: 1px solid black;
+  } 
+
+#greyback {
+    font-size: large;
+    background-color: grey;
+}
+.topin {
+    border: none;
+    text-decoration: underline;
+}
+.group {
+    width:10%;
+}
+
+.p_n {
+    width:30%;
+}
+.gsn {
+    width:80%;
+}
+
+#gsi {
+    width: 95%;
+}
+
+#pni {
+    width:95%; 
+}
+#detailsfield, #multilineinput {
+    font-weight: normal;
+}
+.lp {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 28px;
+}
+
+#btnSubmit{
+    width: 100%;
+}
+
+#butholder {
+    border: 0px solid black;
+}
+
+.above{
+    width: 45%;
+}
+
+#under {
+    font-weight: normal;
+    text-decoration: underline;
+}
+#sp{
+    width: 50%
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
